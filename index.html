@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Valentine's Day ❤️</title>
+<style>
+  body { font-family: 'Poppins', sans-serif; background: #fff0f5; color: #333; text-align: center; padding: 50px; }
+  h1 { color: #ff4d6d; }
+  button { padding: 15px 25px; margin: 10px; font-size: 16px; cursor: pointer; border: none; border-radius: 8px; background-color: #ffccd5; }
+  button:hover { background-color: #ff99aa; color: white; }
+  #message { margin-top: 20px; font-size: 20px; color: #ff3366; }
+</style>
+</head>
+<body>
+
+<h1>Happy Valentine's Day, Manindu ❤️</h1>
+<p>A little love for my amazing man…</p>
+
+<button onclick="showLoveNote()">Reveal a Love Note</button>
+<button onclick="showMemory()">Memory Lane</button>
+<button onclick="showHug()">Daily Hug</button>
+
+<div id="message"></div>
+
+<script>
+function showLoveNote() {
+  document.getElementById('message').innerHTML = "Hey love,
+
+Happy Valentine’s Day ❤️
+
+I just wanted to take a minute to tell you something simple but important: I love you. I love you the way you are and all the ways you show up in life. Being with you makes me feel at ease and happy in a way I didn’t even know was possible and I’m grateful for it every day.
+
+I hope today reminds you of all the little things that make you feel good and maybe gives you a few extra smiles too 😉 Seeing you happy makes me happy and I love how we fit together without having to force anything. I love that we can be ourselves and still choose each other and the calm I feel knowing you’re here, really here, in my life.
+
+No pressure, no expectations. Just me saying I love you, I like us and I’m so glad we’re in this thing together. That’s all I want today, every day, really ❤️";
+}
+function showMemory() {
+  document.getElementById('message').innerHTML = "<img src='https://drive.google.com/file/d/1f8xxUr9BhZ7t98rwnC7cVxq5bqyWUxaz/view?usp=sharing' alt='Memory' width='300'><p>Remember this day? 🥰</p>";
+}
+function showHug() {
+  document.getElementById('message').innerHTML = "<img src='https://www.tiktok.com/@kennys_gifs/video/7208989023887445253?is_from_webapp=1&sender_device=pc' alt='Virtual Hug' width='300'><p>Sending you a hug! 🤗</p>";
+}
+</script>
+
+</body>
+</html>
